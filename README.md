@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo {Image_credit:https://www.pexels.com/@realtoughcandy/}"></a>
+ <img width=200px height=200px src="https://github.com/momin-mostafa/djangoRest/blob/django-rest-postgre-_r%26d_/image_readme/postgresql.jpg" alt="Project logo {Image_credit:https://www.pexels.com/@realtoughcandy/}"></a>
 </p>
 
 <h3 align="center">Django Rest Postgres R&D</h3>
