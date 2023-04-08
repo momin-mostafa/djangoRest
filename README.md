@@ -3,11 +3,11 @@
  <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo {Image_credit:https://www.pexels.com/@realtoughcandy/}"></a>
 </p>
 
-<h3 align="center">Project Title</h3>
+<h3 align="center">Django Rest Postgres R&D</h3>
 
 <div align="center">
 
-[![Status](https://img.shields.io/static/v1?label=Project_Started&message=9Apr2023&color=green)]()
+[![Status](https://img.shields.io/static/v1?label=Project_Started&message=9:Apr:23&color=green)]()
 [![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
