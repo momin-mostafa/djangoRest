@@ -6,12 +6,6 @@
 <h3 align="center">Django Rest Postgres R&D</h3>
 
 <div align="center">
-
-[![Status](https://img.shields.io/static/v1?label=Project_Started&message=9:Apr:23&color=green)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
-
 </div>
 
 ---
@@ -27,14 +21,13 @@
 - [Deployment](#deployment)
 - [Usage](#usage)
 - [Built Using](#built_using)
-- [TODO](../TODO.md)
 - [Contributing](../CONTRIBUTING.md)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+This is an R&D Project for connecting [Django](https://www.djangoproject.com) & [Django Rest](https://www.django-rest-framework.org) framework to a [postgresql](https://www.postgresql.org/docs/15/index.html) database.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
@@ -44,9 +37,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 What things you need to install the software and how to install them.
 
-```
-Give examples
-```
+Basic Python Virtual Environments with mentioned in about frameworks
 
 ### Installing
 
@@ -92,7 +83,27 @@ Add notes about how to use the system.
 
 ## 🚀 Deployment <a name = "deployment"></a>
 
-Add additional notes about how to deploy this on a live system.
+```Bash
+pip install django
+pip install psycopg2
+django-admin startproject myproject
+cd myproject
+```
+Please change settings.py file change the database ENGINE string from sqlite3 to postgresql and add NAME, USER, PASSWORD, HOST and POST as keys to the default dictionary.
+
+```Python
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        #This Fields Needs To Be Customised.
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': '',
+        'PORT': '',
+    }
+}
+```
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
