@@ -7,7 +7,7 @@
 
 <div align="center">
 
-[![Status](https://img.shields.io/static/v1?label=<Active>&message=Active&color=green)]()
+[![Status](https://img.shields.io/static/v1?label=Project_Started&message=9Apr2023&color=green)]()
 [![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
