@@ -19,9 +19,9 @@
 - [About](#about)
 - [Getting Started](#getting_started)
 - [Deployment](#deployment)
-- [Usage](#usage)
+<!-- - [Usage](#usage) -->
 - [Built Using](#built_using)
-- [Contributing](../CONTRIBUTING.md)
+<!-- - [Contributing](../CONTRIBUTING.md) -->
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
 
