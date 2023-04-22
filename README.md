@@ -31,13 +31,13 @@ This is an R&D Project for connecting [Django](https://www.djangoproject.com) & 
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+will create a requirements.txt later
 
 ### Prerequisites
 
 What things you need to install the software and how to install them.
 
-Basic Python Virtual Environments with mentioned in about frameworks
+Basic Python Virtual Environment, Django, Django Rest Framework
 
 ### Installing
 
@@ -46,16 +46,16 @@ A step by step series of examples that tell you how to get a development env run
 Say what the step will be
 
 ```
-Give the example
+pip install django
 ```
 
-And repeat
+for django rest frame work
 
 ```
-until finished
+pip install djangorestframework
 ```
 
-End with an example of getting some data out of the system or using it for a little demo.
+<!-- End with an example of getting some data out of the system or using it for a little demo.
 
 ## 🔧 Running the tests <a name = "tests"></a>
 
@@ -75,11 +75,11 @@ Explain what these tests test and why
 
 ```
 Give an example
-```
+``` -->
 
-## 🎈 Usage <a name="usage"></a>
+<!-- ## 🎈 Usage <a name="usage"></a>
 
-Add notes about how to use the system.
+Add notes about how to use the system. -->
 
 ## 🚀 Deployment <a name = "deployment"></a>
 
@@ -107,19 +107,22 @@ DATABASES = {
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+- [Python](https://www.python.org) - Python
+-  [Django](https://www.djangoproject.com) - Server
+- [Django Rest](https://www.django-rest-framework.org) - Server Framework
+- [Postgresql](https://www.postgresql.org/) - Database
+<!-- - [VueJs](https://vuejs.org/) - Web Framework -->
+<!-- - [NodeJs](https://nodejs.org/en/) - Server Environment -->
 
 ## ✍️ Authors <a name = "authors"></a>
 
 - [@momin-mostafa](https://github.com/momin-mostafa) - Idea & Initial work
-
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
+<!-- 
+See also the list of [contributors](https://github.com/momin-mostafa/The-Documentation-Compendium/contributors) who participated in this project. -->
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
 - Hat tip to anyone whose code was used
 - Inspiration
 - References
+    https://www.youtube.com/@DennisIvy
