@@ -32,7 +32,8 @@ def taskList(request):
         serializers = TaskSerializer(data=request.data)
         if serializers.is_valid():
             serializers.save()
-        return Response(serializers.data)
+            return Response("Successfully Added")
+        return Response("Product Add Failed")
     if request.method == "DELETE":
         task = Task.objects.get(id=request.data.id)
         task.delete()
